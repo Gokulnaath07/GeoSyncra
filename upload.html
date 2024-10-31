@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+    <title>Upload Image</title>
+</head>
+
+<body>
+<section>
+    <!-- Nav Bar -->
+    <nav>
+        <a href="index.html">Home</a> &nbsp; | &nbsp; <a href="login.html">Login</a>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+        <header>
+            <h3>Upload Image and Data</h3>
+        </header>
+
+        <article>
+            <h4>Upload Image</h4>
+            <form id="uploadForm">
+                <input type="text" id="name" name="name" placeholder="Enter Name" required />
+                <input type="text" id="description" name="description" placeholder="Enter Description" required />
+                <input type="text" id="location" name="location" placeholder="Enter Location" required />
+                <input type="file" id="imageFile" name="imageFile" accept="image/*" required />
+                <button type="submit">Upload</button>
+            </form>
+            <p id="uploadStatus"></p>
+        </article>
+    </main>
+
+    <footer>
+        <h>&copy; 2024 Team07</h>
+    </footer>
+</section>
+</body>
+
+</html>
